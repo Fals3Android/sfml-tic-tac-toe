@@ -1,0 +1,7 @@
+CFLAGS := -Os $(CFLAGS)
+
+BUILD_FLAGS := \
+	-pthread
+
+BUILD_MACROS := \
+	NDEBUG
